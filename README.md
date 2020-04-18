@@ -1,2 +1,2 @@
-# WLST.pλ
-Well Known Attributes (WKA)
+# WKA WLST.pλ
+Well Known Attributes (WKA) WLST.pλ
