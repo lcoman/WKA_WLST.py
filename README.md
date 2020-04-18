@@ -5,7 +5,7 @@ Please find all the full details on my blog: [Well Known Attributes WLST.pλ ](h
 
 ## How to run the script: 
 
-1. Download the attached (9) files and in the same location create an "output" folder.
+1. Download the attached (9) files from the WKA_WLST_PY folder and, on your machine, in the same location create an "output" folder.
 2. Open the appropriate OS file (.sh or .cmd) in an editor and change the environment variable settings to suit your system.
 - You can generate the output html file inside the "output" folder or any other custom folder. 
 3. Open a terminal and run the appropriate OS file (.sh or .cmd).
