@@ -23,14 +23,14 @@ There are 2 main flows:
       > .sh/.cmd -> Start_WKA_WLST.py -> WKA_WLST_UI.py -> wka_wlstPy.py
 
 * .sh/.cmd defines the environment variable settings. 
-* Start_WKA_WLST.py will cover the license and will connect to the domain. 
+* Start_WKA_WLST.py covers the license and the connection details to the WLS domain. 
 * WKA_WLST_UI.py covers the UI around the WLST output. 
-* wka_wlstPy.py covers the WLST-related functions to gather the data frm the domain. 
+* wka_wlstPy.py covers the WLST-related functions to gather the data from the domain. 
 
 2. OS flow (per each main OS): 
 
      > Windows_OS_UI.py - > Windows_OS_Details.py  
      > Linux_OS_UI.py -> Linux_OS_Details.py
 
-* The UI file will identify the above wlst generated html and will append the OS-related UI template. 
-* The OS_Details file covers the OS-related functions to gather the OS data. 
+* The UI script will identify the above wlst-related generated html and will append the OS-related UI template. 
+* The OS_Details script covers the OS-related functions to gather the OS data. 
