@@ -20,7 +20,7 @@ There are 2 main flows:
 
 1. WLST flow:
 
-> .sh/.cmd -> Start_WKA_WLST.py -> WKA_WLST_UI.py -> wka_wlstPy.py
+    .sh/.cmd -> Start_WKA_WLST.py -> WKA_WLST_UI.py -> wka_wlstPy.py
 
 * .sh/.cmd defines the environment variable settings. 
 * Start_WKA_WLST.py will cover the license and will connect to the domain. 
