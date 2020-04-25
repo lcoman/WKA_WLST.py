@@ -7,9 +7,9 @@ Please find all the full details on my blog: [Well Known Attributes WLST.pλ ](h
 ##  Disclaimer
 
 - I don't own production environments - and, no matter what, tests should be done on test environments. 
-- I don't own complex environments on my laptop; the best case was an Oracle XE database on a Docker container as the RCU database.  
-- Even if I did my tests you should also start with a test of this script on a more mature "test" environment and only when comfortable enough to move to real production. 
-- I focused my tests to make sure that scrips run with no issues and that the details printed are relevant. I never checked the performance details and what impact the script has on the machine or the domain itself. It's a WLST script so should be safe enough but please also do your own tests. 
+- I don't own complex environments on my laptop.  
+- Even if I did my tests you should also start with a test of this tool on a more mature "test" environment and only when comfortable enough to move to real production. 
+- I focused my tests to make sure that scrips run with no issues and that the details printed are relevant. I never checked the performance details and what impact the tool has on the machine or the domain itself. It's a WLST script so should be safe enough but please also do your own tests. 
 - The OS-related Python3 scripts have no impact on performance: they move so fast that you don't even have time to blink.    
 - No passwords are collected/saved. Not even when you need to provide the connection credentials: the value typed in for password will not be echoed back to the console.
 
