@@ -14,6 +14,7 @@ Please find all the full details on my blog: [Well Known Attributes WLST.pλ ](h
     - Provide the AdminServer connection details: URL, user and password. 
 4. Once the script is done: open the generated html file.
 
+
 ## The flow 
 
 There are 2 main flows:
@@ -36,9 +37,10 @@ There are 2 main flows:
      * The OS_Details script covers the OS-related functions to gather the OS data. 
 
 
+
 ## The trailing slash output path
 
-   >  Intro: Don't use spaces in folder names.
+   >   Intro: Don't use spaces in folder names.
 
 
 Inside the .sh/.cmd file you customize some variables like the output path (WLST_OUTPUT_PATH) for the HTML file that will be generated. 
@@ -59,23 +61,23 @@ In addition to the above variables we have the below WLST_OUTPUT_PATH and some 2
  
    >  Test1
 
-WLST_OUTPUT_PATH = /home/leo/Videos
+    WLST_OUTPUT_PATH = /home/leo/Videos
 
-Inside the /home/leo you will have the Videosbpm_leo_wlst_PY_Output.html file plus the below error on the terminal:
+    Inside the /home/leo you will have the Videosbpm_leo_wlst_PY_Output.html file plus the below error on the terminal:
 
-Traceback (most recent call last):
-  File "Linux_OS_UI.py", line 9, in <module>
-    f.write (  """
-NameError: name 'f' is not defined
+    Traceback (most recent call last):
+     File "Linux_OS_UI.py", line 9, in <module>
+        f.write (  """
+        NameError: name 'f' is not defined
 
 
    >  Test2
 
-WLST_OUTPUT_PATH = /home/leo/Videos/
+     WLST_OUTPUT_PATH = /home/leo/Videos/
 
-Inside the /home/leo/Videos  you will have the bpm_leo_wlst_PY_Output.html file. 
+     Inside the /home/leo/Videos  you will have the bpm_leo_wlst_PY_Output.html file. 
 
-No issues, no errors!
+     No issues, no errors!
 
 
    >  The above also applies to the Windows platform.
