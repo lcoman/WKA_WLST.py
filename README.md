@@ -67,6 +67,7 @@ The OS details will not be appended to the same HTML file since an error will be
 Let's assume the "Videos" folder as the output folder and the below environment variables:
 
 WLST_OUTPUT_FILE=wlst_PY_Output.html
+
 DOMAIN NAME is "bpm_leo".
 
 In addition to the above variables we have the below WLST_OUTPUT_PATH and some 2 basic tests. 
