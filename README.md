@@ -23,7 +23,7 @@ Please find all the full details on my blog: [Well Known Attributes WLST.pλ ](h
 3. Open a terminal and run the appropriate OS file (.sh or .cmd).
     - e.g. ./start_WKA_WLST.sh
     - Accept the License
-    - Provide the AdminServer connection details: URL, user and password. 
+    - Provide the AdminServer connection details: URL,port,user and password. 
 4. Once the script is done: open the generated HTML file.
 
 
