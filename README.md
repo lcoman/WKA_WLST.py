@@ -19,12 +19,12 @@ Please find all the full details on my blog: [Well Known Attributes WLST.pλ ](h
 
 1. Download the attached (9) files from the WKA_WLST_PY folder and, on your machine, in the same location create an "output" folder.
 2. Open the appropriate OS file (.sh or .cmd) in an editor and change the environment variable settings to suit your system.
-    - You can generate the output html file inside the "output" folder or any other custom folder. 
+    - You can generate the output HTML file inside the "output" folder or any other custom folder. 
 3. Open a terminal and run the appropriate OS file (.sh or .cmd).
     - e.g. ./start_WKA_WLST.sh
     - Accept the License
     - Provide the AdminServer connection details: URL, user and password. 
-4. Once the script is done: open the generated html file.
+4. Once the script is done: open the generated HTML file.
 
 
 ## The flow 
