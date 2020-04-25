@@ -3,6 +3,18 @@ Well Known Attributes (WKA) WLST.pλ
 
 Please find all the full details on my blog: [Well Known Attributes WLST.pλ ](http://leonardsoa.blogspot.com/2020/04/well-known-attributes-wlstp.html)
 
+
+##  Disclaimer
+
+- I don't own production environments - and, no matter what, tests should be done on test environments. 
+- I don't own complex environments on my laptop... the best case was an Oracle XE database on a Docker container as the RCU database.  
+- Even if I did my tests you should also start with a test of this script on a more mature "test" environment and only when comfortable enough to move to real production. 
+- I focused my tests to make sure that scrips run with no issues and that the details printed are relevant. I never checked the performance details and what impact the script has on the machine or the domain itself. It's a WLST script so should be safe enough but please also do your own tests. 
+- The OS-related Python3 scripts have no impact on performance: they move so fast that you don't even have time to blink.    
+- No passwords are collected/saved. Not even when you need to provide the connection credentials: the value typed in for password will not be echoed back to the console.
+
+
+
 ## How to run the script: 
 
 1. Download the attached (9) files from the WKA_WLST_PY folder and, on your machine, in the same location create an "output" folder.
@@ -86,16 +98,4 @@ In addition to the above variables we have the below WLST_OUTPUT_PATH and some 2
        e.g. Use a path like the below one:
 
        set WLST_OUTPUT_PATH=c:\output_demo\
-
-
-
-##  Disclaimer
-
-- I don't own production environments - and, no matter what, tests should be done on test environments. 
-- I don't own complex environments on my laptop... the best case was an Oracle XE database on a Docker container as the RCU database.  
-- Even if I did my tests you should also start with a test of this script on a more mature "test" environment and only when comfortable enough to move to real production. 
-- I focused my tests to make sure that scrips run with no issues and that the details printed are relevant. I never checked the performance details and what impact the script has on the machine or the domain itself. It's a WLST script so should be safe enough but please also do your own tests. 
-- The OS-related Python3 scripts have no impact on performance: they move so fast that you don't even have time to blink.    
-- No passwords are collected/saved. Not even when you need to provide the connection credentials: the value typed in for password will not be echoed back to the console.
-
 
