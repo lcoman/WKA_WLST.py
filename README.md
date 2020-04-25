@@ -45,7 +45,7 @@ There are 2 main flows:
            Windows_OS_UI.py - > Windows_OS_Details.py  
            Linux_OS_UI.py -> Linux_OS_Details.py
 
-     * The UI script will identify the above wlst-related generated html and will append the OS-related UI template. 
+     * The UI script will identify the above WLST-related generated HTML and will append the OS-related UI template. 
      * The OS_Details script covers the OS-related functions to gather the OS data. 
 
 
