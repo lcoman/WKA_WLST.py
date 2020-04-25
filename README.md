@@ -63,7 +63,8 @@ In addition to the above variables we have the below WLST_OUTPUT_PATH and some 2
 
     WLST_OUTPUT_PATH = /home/leo/Videos
 
-    Inside the /home/leo you will have the Videosbpm_leo_wlst_PY_Output.html file plus the below error on the terminal:
+    Inside the /home/leo you will have the Videosbpm_leo_wlst_PY_Output.html file plus the below 
+    error on the terminal:
 
     Traceback (most recent call last):
      File "Linux_OS_UI.py", line 9, in <module>
