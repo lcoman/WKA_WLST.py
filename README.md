@@ -71,7 +71,7 @@ Let's assume the "Videos" folder as the output folder and the below environment 
 
 In addition to the above variables we have the below WLST_OUTPUT_PATH and some 2 basic tests. 
  
-   >  Test1
+   >  Test 1
 
     WLST_OUTPUT_PATH = /home/leo/Videos
 
@@ -84,7 +84,7 @@ In addition to the above variables we have the below WLST_OUTPUT_PATH and some 2
         NameError: name 'f' is not defined
 
 
-   >  Test2
+   >  Test 2
 
      WLST_OUTPUT_PATH = /home/leo/Videos/
 
